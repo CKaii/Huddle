@@ -1,0 +1,11 @@
+/* General Styles */
+
+body {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+h2 {
+  font-weight: 600
+}
