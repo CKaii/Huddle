@@ -4,6 +4,7 @@ body {
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
+  margin: 0;
 }
 
 h2 {
@@ -53,4 +54,55 @@ section .starter {
   text-align: center;
   border-radius: 20px;
   border: 1px;
+}
+
+/* Descriptions */
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.growing {
+  border: 2px solid hsl(208, 11%, 55%);
+  margin: 20px 30px;;
+  border-radius: 20px;
+  box-shadow: 5px -5px 5px hsl(208, 11%, 55%);
+}
+
+.flowing {
+  border: 1px solid hsl(208, 11%, 55%);
+  margin: 20px 30px;
+  border-radius: 20px;
+  box-shadow: 5px -5px 5px hsl(208, 11%, 55%);
+}
+
+.users {
+  border: 1px solid hsl(208, 11%, 55%);
+  margin: 20px 30px;
+  border-radius: 20px;
+  box-shadow: 5px -5px 5px hsl(208, 11%, 55%);
+}
+
+/* Images */
+
+.grow-img {
+  float: right;
+  width: 35%
+}
+
+.flow-img {
+  float: left;
+  width: 35%;
+}
+
+.user-img {
+  float: right;
+  width: 35%;
+}
+
+/* Footer */
+footer {
+  background-color: hsl(192, 100%, 9%);
+  color: white;
 }
