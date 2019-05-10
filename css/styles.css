@@ -11,6 +11,14 @@ h2 {
   font-weight: 600
 }
 
+.text {
+  width: 35%;
+}
+
+.text p {
+  font-size: 13px;
+}
+
 /* Header */
 
 header {
@@ -32,13 +40,13 @@ header button {
 .starter {
   display: flex;
   flex-direction: column;
-  text-align: left;
   line-height: 2;
   border: 2px solid hsl(208, 11%, 55%);
   margin: 10px;
   padding: 20px;
   background-image: url(images/bg-hero-desktop.svg);
   background-repeat: no-repeat;
+  align-content: center;
 }
 
 .starter button {
@@ -51,6 +59,7 @@ header button {
   border: 1px;
   max-width: 230px;
 }
+
 
 /* Community */
 
@@ -80,40 +89,57 @@ header button {
 }
 
 .growing {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   border: 2px solid hsl(208, 11%, 55%);
   margin: 20px 30px;;
   border-radius: 20px;
   box-shadow: 5px -5px 5px hsl(208, 11%, 55%);
+  padding: 60px;
+}
+
+.growing .text p {
+  color: hsl(208, 11%, 55%);
+  line-height: 1.5;
 }
 
 .flowing {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: space-around;
   border: 1px solid hsl(208, 11%, 55%);
   margin: 20px 30px;
   border-radius: 20px;
   box-shadow: 5px -5px 5px hsl(208, 11%, 55%);
+  padding: 60px;
+}
+
+.flowing .text p {
+  color: hsl(208, 11%, 55%);
+  line-height: 1.5;
 }
 
 .users {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   border: 1px solid hsl(208, 11%, 55%);
   margin: 20px 30px;
   border-radius: 20px;
   box-shadow: 5px -5px 5px hsl(208, 11%, 55%);
+  padding: 60px;
+}
+
+.users .text p {
+  color: hsl(208, 11%, 55%);
+  line-height: 1.5;
 }
 
 /* Images */
 
-.grow-img {
-  float: right;
-  width: 35%
-}
-
-.flow-img {
-  float: left;
-  width: 35%;
-}
-
-.user-img {
-  float: right;
+.description img {
   width: 35%;
 }
 
@@ -132,5 +158,7 @@ header button {
 footer {
   background-color: hsl(192, 100%, 9%);
   color: white;
+  display: flex;
+  flex-direction: row;
   line-height: 2;
 }
