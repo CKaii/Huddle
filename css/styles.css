@@ -68,6 +68,16 @@ header button {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  background-color: white;
+  color: hsl(192, 100%, 9%);
+  border: 1px solid hsl(208, 11%, 55%);;
+  border-radius: 20px;
+  width: 50%;
+  z-index: 1;
+  position: relative;
+  left: 210px;
+  top: 60px;
+  padding: 10px;
 }
 
 .community button {
