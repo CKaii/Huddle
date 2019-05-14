@@ -4,6 +4,7 @@ body {
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
+  margin: auto;
 }
 
 h2 {
@@ -41,9 +42,8 @@ header button {
   display: flex;
   flex-direction: column;
   line-height: 2;
-  border: 2px solid hsl(208, 11%, 55%);
   margin: 10px;
-  padding: 20px;
+  padding: 20px 60px;
   align-content: center;
 }
 
@@ -62,6 +62,8 @@ header button {
 /* Community */
 
 .community {
+  margin: auto;
+  padding-bottom: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -73,9 +75,7 @@ header button {
   width: 50%;
   z-index: 1;
   position: relative;
-  left: 210px;
   top: 60px;
-  padding: 10px;
 }
 
 .community button {
@@ -167,7 +167,6 @@ footer {
   background-color: hsl(192, 100%, 9%);
   color: white;
   display: flex;
-  /* line-height: 2; */
   justify-content: space-between;
   padding: 100px 50px;
 }
@@ -177,6 +176,8 @@ footer ul {
   font-size: 14px;
 }
 
-.copyright {
+footer .copyright {
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
